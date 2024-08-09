@@ -1,0 +1,93 @@
+.formulario {
+    display: flex;
+    height: 95vh;
+    width: 130vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .course-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .course-card {
+    background-color: #366b7e;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .course-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .course-card button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #366b7e;
+    cursor: pointer;
+  }
+  
+  .course-card button:hover {
+    background-color: #f0f0f0;
+  }
+
+
+
+  .form-container {
+    background-color: #4c4c4c;
+    padding: 60px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container label {
+    margin-bottom: 5px;
+  }
+  
+  .form-container input,
+  .form-container select {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #4c4c4c;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #ccc;
+  }

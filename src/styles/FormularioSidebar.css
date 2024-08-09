@@ -1,0 +1,60 @@
+.formulariosidebar {
+    background-color: #444;
+    color: white;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .user-info {
+    text-align: left;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .user-avatar img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .user-details p {
+    margin-top: 10px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .menu {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .menu ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-bottom: 60px;
+  }
+  
+  .menu ul li:hover {
+    background-color: #8c8b8b;
+  }
+  
+  .menu ul li svg {
+    margin-right: 10px;
+  }
+  
+  

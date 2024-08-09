@@ -1,0 +1,25 @@
+.r-container {
+    width: 100%;
+    max-width: 600px; /* Ajusta según el diseño */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    padding-top:20px;
+  }
+
+  form input, form button {
+    width: 100%; /* O ajusta el ancho según sea necesario */
+    margin-bottom: 10px; /* Espacio entre los elementos */
+    padding: 10px;
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  }
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }  
+
+  
